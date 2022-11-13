@@ -69,11 +69,11 @@ const Sidebar = () => {
     const components = [
         {
             icon: <HiOutlineFolderOpen size={24} />,
-            name: "General"
+            name: "Tables"
         },
         {
             icon: <FaMapMarkerAlt size={24} />,
-            name: "General"
+            name: "Map"
         },
     ]
 
