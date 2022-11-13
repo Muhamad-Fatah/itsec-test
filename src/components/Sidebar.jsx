@@ -16,7 +16,6 @@ const Sidebar = () => {
     const navigate = useNavigate()
     const dispatch = useDispatch()
     const nav = useSelector((state) => state.nav.value)
-    console.log(nav)
 
     const classLiActive = `bg-primary-500 text-white cursor-pointer flex align-middle justify-center p-2.5 sm:justify-start`
     const classLi = `hover:bg-primary-500 hover:text-white cursor-pointer flex align-middle justify-center sm:justify-start p-2.5`
