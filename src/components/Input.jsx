@@ -1,5 +1,4 @@
 const Input = ({ prop }) => {
-    console.log(prop)
     return (
         <>
             {prop.map((item, index) => {

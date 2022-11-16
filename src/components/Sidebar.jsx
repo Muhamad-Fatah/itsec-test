@@ -80,7 +80,6 @@ const Sidebar = () => {
     const handlePage = (page) => {
         dispatch(update(page))
         navigate(`/${page}`)
-        console.log(page)
     }
 
     return (

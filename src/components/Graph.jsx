@@ -10,7 +10,7 @@ import {
   Legend,
 } from 'chart.js';
 
-const Graph = ({ temp }) => {
+const Graph = () => {
 
   ChartJS.register(
     CategoryScale,
@@ -37,8 +37,8 @@ const Graph = ({ temp }) => {
     labels,
     datasets: [
       {
-        label: 'Temperature',
-        data: labels.map(() => Math.floor(Math.random() * 35)),
+        label: 'Earnings',
+        data: labels.map(() => Math.floor(Math.random() * 70) + 10),
         borderColor: '#34367c',
         backgroundColor: '#34367c',
       },
